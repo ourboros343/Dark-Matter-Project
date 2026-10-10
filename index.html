@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dark Matter Project</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0d1b52, #2d0057, #000000);
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #64d8ff;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            margin: 20px 0;
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 6px solid cyan;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        h2 {
+            color: #00e5ff;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .gallery figure {
+            width: 300px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .gallery figcaption {
+            padding: 10px;
+        }
+
+        .facts {
+            background: rgba(0,255,255,0.15);
+            border-left: 6px solid yellow;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.4);
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .gallery {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .gallery figure {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Dark Matter</h1>
+    <p>The Invisible Matter That Shapes Our Universe</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>What Is Dark Matter?</h2>
+        <p>
+            Dark matter is a mysterious form of matter that cannot be seen because it
+            does not produce, reflect, or absorb light. Scientists know it exists because
+            of the way it affects gravity and the movement of stars and galaxies.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>How Was It Discovered and By Whom?</h2>
+
+        <p>
+            In 1933, astronomer <strong>Fritz Zwicky</strong> observed that galaxies in the
+            Coma Cluster were moving too quickly. Based on the amount of visible matter,
+            they should have flown apart. He suggested that invisible matter was providing
+            extra gravity.
+        </p>
+
+        <br>
+
+        <p>
+            In the 1970s, astronomer <strong>Vera Rubin</strong> studied how galaxies rotate.
+            Her observations showed that stars farther from the center were moving much
+            faster than expected, providing strong evidence for dark matter.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>What Is It Responsible For?</h2>
+
+        <p>
+            Dark matter helps keep galaxies together. Its gravity prevents stars from
+            drifting away and helps form large structures throughout the universe.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>How Do We Know It Exists?</h2>
+
+        <ul>
+            <li>Stars move faster than visible matter can explain.</li>
+            <li>Galaxies remain together when they should fly apart.</li>
+            <li>Light bends around massive objects more than expected.</li>
+            <li>Computer models of the universe work best when dark matter is included.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Where Is Dark Matter Found?</h2>
+
+        <p>
+            Scientists believe dark matter exists throughout the universe. It surrounds
+            galaxies in large invisible halos and is also found between galaxies.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Pictures Related to Its Discovery</h2>
+
+        <div class="gallery">
+
+            <figure>
+                fritz-zwicky.jpg
+                <figcaption>
+                    Fritz Zwicky, one of the first scientists to suggest dark matter exists.
+                </figcaption>
+            </figure>
+
+            <figure>
+                vera-rubin.jpg
+                <figcaption>
+                    Vera Rubin provided important evidence through galaxy rotation studies.
+                </figcaption>
+            </figure>
+
+            <figure>
+                galaxy.jpg
+                <figcaption>
+                    Galaxies show the effects of dark matter through their motion.
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+
+    <div class="card facts">
+        <h2>Interesting Facts</h2>
+
+        <ul>
+            <li>Dark matter makes up about 85% of all matter in the universe.</li>
+            <li>Scientists have never directly seen dark matter.</li>
+            <li>Dark matter may help explain how galaxies formed.</li>
+            <li>It is one of the biggest mysteries in modern science.</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>Dark Matter ourtsy of Mohammad Hamza</p>
+</footer>
+
+</body>
+</html>
